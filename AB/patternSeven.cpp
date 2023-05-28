@@ -15,11 +15,14 @@ int main()
         count = 1;
         for (int j = 0; j < 5; j++)
         {
-
-            if (i >= j)
+            if (i <= j - i)
             {
                 cout << count << " ";
                 count++;
+            }
+            else
+            {
+                cout << "  ";
             }
         }
         cout << endl;
