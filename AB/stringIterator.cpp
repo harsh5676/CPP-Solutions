@@ -21,5 +21,17 @@ int main()
 
     cout << str;
 
+    // Using for Loop Only
+
+    /*
+    for (int i = 0; str[i]!='\0'; i++)
+    {
+        // cout<<str[i];
+        str[i]=str[i]-32; // To make the characters capital or uppercase. Difference between ASCII Codes.
+    }
+    cout<<str;
+    cout << endl;
+    */
+
     return 0;
 }
